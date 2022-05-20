@@ -1,0 +1,37 @@
+.listitem{
+    padding: 24px 8px;
+    background-color: rgb(215, 234, 250);
+    max-width: 1280px;
+    margin-bottom: 12px;
+}
+.listitem_container{
+    display: flex;
+    max-width: 1280px;
+}
+.listitem_user{
+    width: 220px;
+}
+.listitem_mail{
+    width: 220px;
+}
+.listitem_task{
+    width: 630px;
+}
+.listitem_done{
+    width: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listitem_num{
+    width: 48px;
+    text-align: center;
+}
+
+.list_titles_all{
+    width: 78px;
+}
+.list_titles_done{
+    width: 220px;
+    display: flex;flex-direction: column;
+}

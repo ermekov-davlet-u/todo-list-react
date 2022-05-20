@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  padding: 48px;
+}
+.list{
+  margin-top: 36px;
+}
+.list_titles{
+  display: flex;
+  margin-left: 48px;
+}
+.list_titles_user{
+  width: 220px;
+}
+.list_titles_email{
+  width: 220px;
+}
+.list_titles_task{
+  width: 630px;
+}
+.list_titles_done{
+  width: 78px;
+}
+.list_title{
+  font-size: 20px;
+}
+.list_btn{
+  padding: 6px 18px;
+  color: white;
+  background: rgb(0, 37, 139);
+  outline: none;
+  border: none;
+  margin-right: 12px;
+  border-radius: 4px;
+  margin-top: 24px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+ul{
+  display: flex;
+  margin: 0 auto;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+  padding: 8px 28px;
+}
+
+.login{
+  margin: 0 auto;
+  width: 460px;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(85, 140, 185);
+  box-shadow: 4px 4px 12px rgb(0, 6, 83);
+  margin-top: 62px;
+}
+.login_container{
+  padding: 15px;
+}
+.login_title{
+  margin-top: 18px;
+}
+.filter{
+  display: flex;
+}
