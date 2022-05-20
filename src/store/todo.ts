@@ -9,7 +9,6 @@ class Task{
     constructor() {
         makeAutoObservable(this)
     }
-
     getTaskByDone(done: boolean){
         return this.tasks.filter(item => item.done == done)
     }

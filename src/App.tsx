@@ -28,19 +28,19 @@ const App = observer(() => {
   return (
     <>
       <Router>
-      <ul>
-        <li>
-          <Link to="/login">
+      <ul className="menu_ul">
+        <li className="menu_li">
+          <Link to="/login" className="list_link">
             Войти от имени администратора
           </Link>
         </li>
         <li>
-          <Link to="/form">
+          <Link to="/form" className="list_link">
             Зарегистрировать задачу
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/" className="list_link">
             Список задач
           </Link>
         </li>

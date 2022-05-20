@@ -72,13 +72,13 @@ import { ChangeEvent } from 'react';
                 return newTaskList.map((item, index) => {
                     if(task.token){
                         return(
-                            <Link to={"/admin/task/edit/" + item.id}>
+                            <Link to={"/admin/task/edit/" + item.id} key={item.id} className="list_link">
                                 <ListItem index={++index} username={item.username} email={item.email} done={item.done} task={item.task}/>
                             </Link>
                         )
                     }
                     return(
-                        <ListItem index={++index} username={item.username} email={item.email} done={item.done} task={item.task}/>
+                        <ListItem key={item.id} index={++index} username={item.username} email={item.email} done={item.done} task={item.task}/>
                     )
                 })
             }
